@@ -198,9 +198,14 @@ nav {
         background-color: rgba(0, 0, 0, 0.144);
       }
     }
-    .work:hover .work > img,
-    .work .overlay {
-      opacity: 0;
+
+    .work:hover {
+      .overlay {
+        opacity: 0;
+      }
+      > img {
+        opacity: 0;
+      }
     }
   }
 }
